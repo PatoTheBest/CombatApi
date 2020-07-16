@@ -1,0 +1,6 @@
+name: CombatApi
+version: ${project.version}
+main: me.patothebest.combatapi.CombatApi
+api-version: 1.13
+authors: [PatoTheBest]
+description: A better way of handling player deaths
