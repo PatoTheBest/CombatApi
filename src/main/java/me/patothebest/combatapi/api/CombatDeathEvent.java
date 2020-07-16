@@ -78,7 +78,7 @@ public class CombatDeathEvent extends PlayerEvent implements Cancellable {
 
     /**
      * Gets the entity that killed the player
-     * <p />
+     * <p>
      * <strong>NOTE:</strong> can be different form {@link CombatDeathEvent#getKillerPlayer()}
      *
      * @return the entity that killed the player
@@ -120,7 +120,7 @@ public class CombatDeathEvent extends PlayerEvent implements Cancellable {
 
     /**
      * Sets the death message for this event
-     * <p />
+     * <p>
      * <strong>NOTE:</strong> the death message won't be
      * broadcasted. You must manually broadcast it if you need.
      * Useful for having custom death messages inside an arena.
@@ -151,7 +151,7 @@ public class CombatDeathEvent extends PlayerEvent implements Cancellable {
 
     /**
      * Gets the last damage that killed the player
-     * <p />
+     * <p>
      * The {@link CombatDeathEvent#getKillerPlayer()} could be present
      * while the {@link CombatEntry#getPlayerKiller()} could not because
      * the last damage could be fire but the fire was caused by a player
